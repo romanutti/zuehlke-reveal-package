@@ -2113,11 +2113,10 @@ body {
 
 /* src/styles/zuehlke-logo-slide.css */
 .reveal .logo-slide.slide-background {
-  background:
-    url(./zuehlke-logo-slide-HR7CMH4H.jpg),
-    center,
-    center;
-  background-size: cover;
+  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* src/styles/zuehlke-title-slide.css */
@@ -2125,11 +2124,10 @@ body {
   text-align: left;
 }
 .reveal .title-slide.slide-background {
-  background:
-    url(./zuehlke-title-slide-CZA4MQ3N.jpg),
-    center,
-    center;
-  background-size: cover;
+  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .reveal .title-slide > * {
   color: var(--zuehlke-white);
@@ -2156,11 +2154,10 @@ body {
   text-align: left;
 }
 .reveal .subtitle-slide.slide-background {
-  background:
-    url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg),
-    center,
-    center;
-  background-size: cover;
+  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .reveal .subtitle-slide > * {
   color: var(--zuehlke-dark-gray);
@@ -2183,11 +2180,10 @@ body {
   text-align: left;
 }
 .agenda.slide-background {
-  background:
-    url(./zuehlke-agenda-slide-BXFRWY2P.jpg),
-    center,
-    center;
-  background-size: cover;
+  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .agenda .number {
   font-size: 1.2em;
