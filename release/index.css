@@ -2200,6 +2200,28 @@ body {
   padding-left: 0.8em;
 }
 
+/* src/styles/zuehlke-exercise-slide.css */
+.exercise.slide-background {
+  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.exercise .title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.exercise .title:after {
+  content: "";
+  border-style: none solid none none;
+  border-right-color: var(--zuehlke-purple);
+  padding-right: 0.3em;
+}
+.exercise .description {
+  font-size: 0.8em;
+  padding-left: 0.8em;
+}
+
 /* src/styles/zuehlke-print.css */
 @media print {
   * {
