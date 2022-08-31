@@ -2020,6 +2020,11 @@ html.print-pdf .aria-status {
   content: url(./zuehlke-grid-JP6ADDYN.svg);
 }
 
+/* src/styles/elements/zuehlke-plus.css */
+.reveal .zuehlke-plus {
+  content: url(./zuehlke-plus-COAVFBE2.svg);
+}
+
 /* src/styles/zuehlke.css */
 @font-face {
   font-family: "Zuehlke";
