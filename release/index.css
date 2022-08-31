@@ -1803,7 +1803,7 @@ html.print-pdf .aria-status {
   }
 }
 
-/* src/styles/googlecode.css */
+/* src/styles/fonts/googlecode.css */
 .hljs {
   background: white;
   color: black;
@@ -2111,7 +2111,7 @@ body {
   margin-top: 0.8em;
 }
 
-/* src/styles/zuehlke-logo-slide.css */
+/* src/styles/slides/zuehlke-logo-slide.css */
 .reveal .logo-slide.slide-background {
   background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
   background-position: center, center;
@@ -2119,7 +2119,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* src/styles/zuehlke-title-slide.css */
+/* src/styles/slides/zuehlke-title-slide.css */
 .reveal .title-slide {
   text-align: left;
 }
@@ -2149,7 +2149,7 @@ body {
   font-weight: normal;
 }
 
-/* src/styles/zuehlke-subtitle-slide.css */
+/* src/styles/slides/zuehlke-subtitle-slide.css */
 .reveal .subtitle-slide {
   text-align: left;
 }
@@ -2171,7 +2171,7 @@ body {
   font-weight: bold;
 }
 
-/* src/styles/zuehlke-agenda-slide.css */
+/* src/styles/slides/zuehlke-agenda-slide.css */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2200,7 +2200,7 @@ body {
   padding-left: 0.8em;
 }
 
-/* src/styles/zuehlke-exercise-slide.css */
+/* src/styles/slides/zuehlke-exercise-slide.css */
 .exercise.slide-background {
   background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
   background-position: center, center;
@@ -2222,7 +2222,7 @@ body {
   padding-left: 0.8em;
 }
 
-/* src/styles/zuehlke-break-slide.css */
+/* src/styles/slides/zuehlke-break-slide.css */
 .reveal .break-slide {
   text-align: left;
 }
