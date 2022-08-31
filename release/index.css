@@ -1871,6 +1871,143 @@ html.print-pdf .aria-status {
   font-style: italic;
 }
 
+/* src/styles/slides/zuehlke-logo-slide.css */
+.reveal .logo-slide.slide-background {
+  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* src/styles/slides/zuehlke-title-slide.css */
+.reveal .title-slide {
+  text-align: left;
+}
+.reveal .title-slide.slide-background {
+  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reveal .title-slide > * {
+  color: var(--zuehlke-white);
+  position: relative;
+  margin: 0 0 0.3em 0;
+}
+.reveal .title-slide h1 {
+  font-size: 1.6em;
+  margin-top: 4em;
+  font-weight: bold;
+}
+.reveal .title-slide h2 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.reveal .title-slide h3 {
+  font-size: 0.8em;
+  margin-top: 3em;
+  font-weight: normal;
+}
+
+/* src/styles/slides/zuehlke-subtitle-slide.css */
+.reveal .subtitle-slide {
+  text-align: left;
+}
+.reveal .subtitle-slide.slide-background {
+  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reveal .subtitle-slide > * {
+  color: var(--zuehlke-dark-gray);
+  position: relative;
+  margin-left: 12.5em;
+  margin-bottom: 0.0em;
+}
+.reveal .subtitle-slide h1 {
+  font-size: 1.2em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+/* src/styles/slides/zuehlke-agenda-slide.css */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 5em;
+  gap: 30px;
+  text-align: left;
+}
+.agenda.slide-background {
+  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.agenda .number {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.agenda .number:after {
+  content: "";
+  border-style: none solid none none;
+  border-right-color: var(--zuehlke-purple);
+  padding-right: 0.3em;
+}
+.agenda .title {
+  font-size: 0.8em;
+  padding-left: 0.8em;
+}
+
+/* src/styles/slides/zuehlke-exercise-slide.css */
+.exercise.slide-background {
+  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.exercise .title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.exercise .title:after {
+  content: "";
+  border-style: none solid none none;
+  border-right-color: var(--zuehlke-purple);
+  padding-right: 0.3em;
+}
+.exercise .description {
+  font-size: 0.8em;
+  padding-left: 0.8em;
+}
+
+/* src/styles/slides/zuehlke-break-slide.css */
+.reveal .break-slide {
+  text-align: left;
+}
+.reveal .break-slide.slide-background {
+  background: url(./zuehlke-break-slide-2JULONG2.jpg);
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reveal .break-slide > * {
+  color: var(--zuehlke-white);
+  position: relative;
+  margin: 0 0 0.3em 0;
+}
+.reveal .break-slide h1 {
+  font-size: 1.6em;
+  margin-top: 4em;
+  font-weight: bold;
+}
+.reveal .break-slide h2 {
+  font-size: 0.8em;
+  margin-top: 1em;
+  font-weight: normal;
+}
+
 /* src/styles/zuehlke.css */
 @font-face {
   font-family: "Zuehlke";
@@ -2109,141 +2246,11 @@ body {
   margin-top: 0.8em;
 }
 
-/* src/styles/slides/zuehlke-logo-slide.css */
-.reveal .logo-slide.slide-background {
-  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* src/styles/slides/zuehlke-title-slide.css */
-.reveal .title-slide {
-  text-align: left;
-}
-.reveal .title-slide.slide-background {
-  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.reveal .title-slide > * {
-  color: var(--zuehlke-white);
-  position: relative;
-  margin: 0 0 0.3em 0;
-}
-.reveal .title-slide h1 {
-  font-size: 1.6em;
-  margin-top: 4em;
-  font-weight: bold;
-}
-.reveal .title-slide h2 {
-  font-size: 0.8em;
-  font-weight: bold;
-}
-.reveal .title-slide h3 {
-  font-size: 0.8em;
-  margin-top: 3em;
-  font-weight: normal;
-}
-
-/* src/styles/slides/zuehlke-subtitle-slide.css */
-.reveal .subtitle-slide {
-  text-align: left;
-}
-.reveal .subtitle-slide.slide-background {
-  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.reveal .subtitle-slide > * {
-  color: var(--zuehlke-dark-gray);
-  position: relative;
-  margin-left: 12.5em;
-  margin-bottom: 0.0em;
-}
-.reveal .subtitle-slide h1 {
-  font-size: 1.2em;
-  margin-top: 2em;
-  font-weight: bold;
-}
-
-/* src/styles/slides/zuehlke-agenda-slide.css */
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-left: 5em;
-  gap: 30px;
-  text-align: left;
-}
-.agenda.slide-background {
-  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.agenda .number {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.agenda .number:after {
-  content: "";
-  border-style: none solid none none;
-  border-right-color: var(--zuehlke-purple);
-  padding-right: 0.3em;
-}
-.agenda .title {
-  font-size: 0.8em;
-  padding-left: 0.8em;
-}
-
-/* src/styles/slides/zuehlke-exercise-slide.css */
-.exercise.slide-background {
-  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.exercise .title {
-  font-size: 0.8em;
-  font-weight: bold;
-}
-.exercise .title:after {
-  content: "";
-  border-style: none solid none none;
-  border-right-color: var(--zuehlke-purple);
-  padding-right: 0.3em;
-}
-.exercise .description {
-  font-size: 0.8em;
-  padding-left: 0.8em;
-}
-
-/* src/styles/slides/zuehlke-break-slide.css */
-.reveal .break-slide {
-  text-align: left;
-}
-.reveal .break-slide.slide-background {
-  background: url(./zuehlke-break-slide-2JULONG2.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.reveal .break-slide > * {
-  color: var(--zuehlke-white);
-  position: relative;
-  margin: 0 0 0.3em 0;
-}
-.reveal .break-slide h1 {
-  font-size: 1.6em;
-  margin-top: 4em;
-  font-weight: bold;
-}
-.reveal .break-slide h2 {
-  font-size: 0.8em;
-  margin-top: 1em;
-  font-weight: normal;
+/* src/styles/elements/zuehlke-logo.css */
+.reveal .zuehlke-logo {
+  content: url(./zuehlke-logo-5AXGBJTF.jpg);
+  width: 100px;
+  height: 100px;
 }
 
 /* src/styles/zuehlke-print.css */
