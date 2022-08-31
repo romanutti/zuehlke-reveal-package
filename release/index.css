@@ -2008,6 +2008,18 @@ html.print-pdf .aria-status {
   font-weight: normal;
 }
 
+/* src/styles/elements/zuehlke-logo.css */
+.reveal .zuehlke-logo {
+  content: url(./zuehlke-logo-5AXGBJTF.jpg);
+  width: 100px;
+  height: 100px;
+}
+
+/* src/styles/elements/zuehlke-grid.css */
+.reveal .zuehlke-grid {
+  content: url(./zuehlke-grid-JP6ADDYN.svg);
+}
+
 /* src/styles/zuehlke.css */
 @font-face {
   font-family: "Zuehlke";
@@ -2244,13 +2256,6 @@ body {
 }
 .reveal .slides section .grid li {
   margin-top: 0.8em;
-}
-
-/* src/styles/elements/zuehlke-logo.css */
-.reveal .zuehlke-logo {
-  content: url(./zuehlke-logo-5AXGBJTF.jpg);
-  width: 100px;
-  height: 100px;
 }
 
 /* src/styles/zuehlke-print.css */
