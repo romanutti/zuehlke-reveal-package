@@ -1934,40 +1934,28 @@ html.print-pdf .aria-status {
   font-weight: normal;
 }
 
-/* src/styles/slides/zuehlke-quote-slide.css */
-.reveal .quote-slide {
+/* src/styles/slides/zuehlke-statement-slide.css */
+.reveal .statement-slide {
   text-align: left;
 }
-.reveal .quote-slide.slide-background {
-  background: url(./zuehlke-quote-slide-4RFCWNFO.jpg);
+.reveal .statement-slide.slide-background {
+  background: url(./zuehlke-statement-slide-XXCF7IV2.jpg);
   background-position: center, center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
-.reveal .quote-slide quote {
-  color: var(--zuehlke-dark-gray);
-  position: absolute;
-  top: 1.9em;
-  left: -0.9em;
-  right: 2em;
-  line-height: 1.5em;
-  font-size: 1.5em;
-}
-.reveal .quote-slide author {
+.reveal .statement-slide > * {
   color: var(--zuehlke-white);
-  position: absolute;
-  top: 23em;
-  left: 28.5em;
-  font-size: 0.6em;
+  position: relative;
+  font-size: 1.6em;
   font-weight: bold;
 }
-.reveal .quote-slide position {
-  color: var(--zuehlke-white);
-  position: absolute;
-  top: 24.5em;
-  left: 28.5em;
-  font-size: 0.6em;
-  font-weight: normal;
+.reveal .statement-slide h1 {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
 }
 
 /* src/styles/slides/zuehlke-subtitle-slide.css */
