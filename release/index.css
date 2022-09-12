@@ -1898,10 +1898,8 @@ html.print-pdf .aria-status {
 
 /* src/styles/slides/zuehlke-logo-slide.css */
 .reveal .logo-slide.slide-background {
-  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 
 /* src/styles/slides/zuehlke-title-slide.css */
@@ -1909,10 +1907,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .title-slide.slide-background {
-  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg) center, center;
+  background-size: cover;
 }
 .reveal .title-slide > * {
   color: var(--zuehlke-white);
@@ -1939,10 +1935,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .statement-slide.slide-background {
-  background: url(./zuehlke-statement-slide-XXCF7IV2.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url(./zuehlke-statement-slide-XXCF7IV2.jpg) center, center;
+  background-size: cover;
 }
 .reveal .statement-slide > * {
   color: var(--zuehlke-white);
@@ -1963,10 +1957,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .subtitle-slide.slide-background {
-  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .reveal .subtitle-slide > * {
   color: var(--zuehlke-dark-gray);
@@ -1989,10 +1981,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .agenda.slide-background {
-  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .agenda .number {
   font-size: 1.2em;
@@ -2011,10 +2001,8 @@ html.print-pdf .aria-status {
 
 /* src/styles/slides/zuehlke-exercise-slide.css */
 .exercise.slide-background {
-  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .exercise .title {
   font-size: 0.8em;
@@ -2036,10 +2024,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .break-slide.slide-background {
-  background: url(./zuehlke-break-slide-2JULONG2.jpg);
-  background-position: center, center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url(./zuehlke-break-slide-2JULONG2.jpg) center, center;
+  background-size: cover;
 }
 .reveal .break-slide > * {
   color: var(--zuehlke-white);
